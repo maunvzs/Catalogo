@@ -1,0 +1,41 @@
+header
+{
+	margin-right: 33%;
+	margin-left: 33%;
+	text-align: center;
+}
+
+.form
+{
+	display: table-cell;
+	padding-left: 40px;
+	padding-top: 30px;
+	width: 150px;
+}
+
+.listado
+{
+	padding-top: 2%;
+	
+}
+
+.listado table, th, td
+{
+	border: 1px solid black;
+}
+
+.listado table
+{
+	width: 60%;
+}
+
+.listado tr 
+{
+	background-color: #EDEDED;
+}
+
+.listado tr:not(:first-child):hover
+{
+	background-color: #F5F2A2;
+	cursor: pointer;
+}
